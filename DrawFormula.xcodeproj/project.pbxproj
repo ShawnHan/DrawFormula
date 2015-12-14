@@ -13,6 +13,21 @@
 		CD72C24B1C1B104300290323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD72C2491C1B104300290323 /* LaunchScreen.storyboard */; };
 		CD72C2561C1B104300290323 /* DrawFormulaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72C2551C1B104300290323 /* DrawFormulaTests.m */; };
 		CD72C2611C1B104300290323 /* DrawFormulaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72C2601C1B104300290323 /* DrawFormulaUITests.m */; };
+		CD72C2701C1B108400290323 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72C26F1C1B108400290323 /* MainViewController.m */; };
+		CD72C2731C1B13F400290323 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72C2721C1B13F400290323 /* DrawView.m */; };
+		CD72C2791C1B15F000290323 /* DrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72C2781C1B15F000290323 /* DrawModel.m */; };
+		CDF8A4661C1E634900DE5119 /* MBProgressHUD+WJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A4621C1E634900DE5119 /* MBProgressHUD+WJ.m */; };
+		CDF8A4671C1E634900DE5119 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDF8A4631C1E634900DE5119 /* MBProgressHUD.bundle */; };
+		CDF8A4681C1E634900DE5119 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A4651C1E634900DE5119 /* MBProgressHUD.m */; };
+		CDF8A47D1C1E64E100DE5119 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A46B1C1E64E100DE5119 /* AFHTTPRequestOperation.m */; };
+		CDF8A47E1C1E64E100DE5119 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A46D1C1E64E100DE5119 /* AFHTTPRequestOperationManager.m */; };
+		CDF8A47F1C1E64E100DE5119 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A46F1C1E64E100DE5119 /* AFHTTPSessionManager.m */; };
+		CDF8A4801C1E64E100DE5119 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A4721C1E64E100DE5119 /* AFNetworkReachabilityManager.m */; };
+		CDF8A4811C1E64E100DE5119 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A4741C1E64E100DE5119 /* AFSecurityPolicy.m */; };
+		CDF8A4821C1E64E100DE5119 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A4761C1E64E100DE5119 /* AFURLConnectionOperation.m */; };
+		CDF8A4831C1E64E100DE5119 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A4781C1E64E100DE5119 /* AFURLRequestSerialization.m */; };
+		CDF8A4841C1E64E100DE5119 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A47A1C1E64E100DE5119 /* AFURLResponseSerialization.m */; };
+		CDF8A4851C1E64E100DE5119 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8A47C1C1E64E100DE5119 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +61,37 @@
 		CD72C25C1C1B104300290323 /* DrawFormulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawFormulaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD72C2601C1B104300290323 /* DrawFormulaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawFormulaUITests.m; sourceTree = "<group>"; };
 		CD72C2621C1B104300290323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD72C26E1C1B108400290323 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CD72C26F1C1B108400290323 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CD72C2711C1B13F400290323 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		CD72C2721C1B13F400290323 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		CD72C2771C1B15F000290323 /* DrawModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawModel.h; sourceTree = "<group>"; };
+		CD72C2781C1B15F000290323 /* DrawModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawModel.m; sourceTree = "<group>"; };
+		CDB5BFA71C1C1CA6006DBC70 /* DrawFormula-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawFormula-Prefix.pch"; sourceTree = "<group>"; };
+		CDF8A4611C1E634900DE5119 /* MBProgressHUD+WJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WJ.h"; sourceTree = "<group>"; };
+		CDF8A4621C1E634900DE5119 /* MBProgressHUD+WJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WJ.m"; sourceTree = "<group>"; };
+		CDF8A4631C1E634900DE5119 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		CDF8A4641C1E634900DE5119 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CDF8A4651C1E634900DE5119 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CDF8A46A1C1E64E100DE5119 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CDF8A46B1C1E64E100DE5119 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CDF8A46C1C1E64E100DE5119 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CDF8A46D1C1E64E100DE5119 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		CDF8A46E1C1E64E100DE5119 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CDF8A46F1C1E64E100DE5119 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CDF8A4701C1E64E100DE5119 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CDF8A4711C1E64E100DE5119 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CDF8A4721C1E64E100DE5119 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CDF8A4731C1E64E100DE5119 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CDF8A4741C1E64E100DE5119 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CDF8A4751C1E64E100DE5119 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CDF8A4761C1E64E100DE5119 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CDF8A4771C1E64E100DE5119 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CDF8A4781C1E64E100DE5119 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CDF8A4791C1E64E100DE5119 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CDF8A47A1C1E64E100DE5119 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CDF8A47B1C1E64E100DE5119 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CDF8A47C1C1E64E100DE5119 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +119,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B26E0E5920E519ADFE53A74C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD72C2351C1B104300290323 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +133,7 @@
 				CD72C2541C1B104300290323 /* DrawFormulaTests */,
 				CD72C25F1C1B104300290323 /* DrawFormulaUITests */,
 				CD72C23F1C1B104300290323 /* Products */,
+				B26E0E5920E519ADFE53A74C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +150,16 @@
 		CD72C2401C1B104300290323 /* DrawFormula */ = {
 			isa = PBXGroup;
 			children = (
+				CDF8A4691C1E64E100DE5119 /* AFNetworking */,
+				CDF8A4601C1E634900DE5119 /* MBProgressHUD */,
 				CD72C2441C1B104300290323 /* AppDelegate.h */,
 				CD72C2451C1B104300290323 /* AppDelegate.m */,
+				CD72C26E1C1B108400290323 /* MainViewController.h */,
+				CD72C26F1C1B108400290323 /* MainViewController.m */,
+				CD72C2711C1B13F400290323 /* DrawView.h */,
+				CD72C2721C1B13F400290323 /* DrawView.m */,
+				CD72C2771C1B15F000290323 /* DrawModel.h */,
+				CD72C2781C1B15F000290323 /* DrawModel.m */,
 				CD72C2471C1B104300290323 /* Assets.xcassets */,
 				CD72C2491C1B104300290323 /* LaunchScreen.storyboard */,
 				CD72C24C1C1B104300290323 /* Info.plist */,
@@ -110,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				CD72C2421C1B104300290323 /* main.m */,
+				CDB5BFA71C1C1CA6006DBC70 /* DrawFormula-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -130,6 +193,44 @@
 				CD72C2621C1B104300290323 /* Info.plist */,
 			);
 			path = DrawFormulaUITests;
+			sourceTree = "<group>";
+		};
+		CDF8A4601C1E634900DE5119 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8A4611C1E634900DE5119 /* MBProgressHUD+WJ.h */,
+				CDF8A4621C1E634900DE5119 /* MBProgressHUD+WJ.m */,
+				CDF8A4631C1E634900DE5119 /* MBProgressHUD.bundle */,
+				CDF8A4641C1E634900DE5119 /* MBProgressHUD.h */,
+				CDF8A4651C1E634900DE5119 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		CDF8A4691C1E64E100DE5119 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8A46A1C1E64E100DE5119 /* AFHTTPRequestOperation.h */,
+				CDF8A46B1C1E64E100DE5119 /* AFHTTPRequestOperation.m */,
+				CDF8A46C1C1E64E100DE5119 /* AFHTTPRequestOperationManager.h */,
+				CDF8A46D1C1E64E100DE5119 /* AFHTTPRequestOperationManager.m */,
+				CDF8A46E1C1E64E100DE5119 /* AFHTTPSessionManager.h */,
+				CDF8A46F1C1E64E100DE5119 /* AFHTTPSessionManager.m */,
+				CDF8A4701C1E64E100DE5119 /* AFNetworking.h */,
+				CDF8A4711C1E64E100DE5119 /* AFNetworkReachabilityManager.h */,
+				CDF8A4721C1E64E100DE5119 /* AFNetworkReachabilityManager.m */,
+				CDF8A4731C1E64E100DE5119 /* AFSecurityPolicy.h */,
+				CDF8A4741C1E64E100DE5119 /* AFSecurityPolicy.m */,
+				CDF8A4751C1E64E100DE5119 /* AFURLConnectionOperation.h */,
+				CDF8A4761C1E64E100DE5119 /* AFURLConnectionOperation.m */,
+				CDF8A4771C1E64E100DE5119 /* AFURLRequestSerialization.h */,
+				CDF8A4781C1E64E100DE5119 /* AFURLRequestSerialization.m */,
+				CDF8A4791C1E64E100DE5119 /* AFURLResponseSerialization.h */,
+				CDF8A47A1C1E64E100DE5119 /* AFURLResponseSerialization.m */,
+				CDF8A47B1C1E64E100DE5119 /* AFURLSessionManager.h */,
+				CDF8A47C1C1E64E100DE5119 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +338,7 @@
 			files = (
 				CD72C2481C1B104300290323 /* Assets.xcassets in Resources */,
 				CD72C24B1C1B104300290323 /* LaunchScreen.storyboard in Resources */,
+				CDF8A4671C1E634900DE5119 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +363,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF8A4821C1E64E100DE5119 /* AFURLConnectionOperation.m in Sources */,
 				CD72C2461C1B104300290323 /* AppDelegate.m in Sources */,
+				CD72C2791C1B15F000290323 /* DrawModel.m in Sources */,
 				CD72C2431C1B104300290323 /* main.m in Sources */,
+				CDF8A4841C1E64E100DE5119 /* AFURLResponseSerialization.m in Sources */,
+				CD72C2731C1B13F400290323 /* DrawView.m in Sources */,
+				CDF8A4831C1E64E100DE5119 /* AFURLRequestSerialization.m in Sources */,
+				CDF8A4811C1E64E100DE5119 /* AFSecurityPolicy.m in Sources */,
+				CDF8A47D1C1E64E100DE5119 /* AFHTTPRequestOperation.m in Sources */,
+				CDF8A4851C1E64E100DE5119 /* AFURLSessionManager.m in Sources */,
+				CDF8A4661C1E634900DE5119 /* MBProgressHUD+WJ.m in Sources */,
+				CD72C2701C1B108400290323 /* MainViewController.m in Sources */,
+				CDF8A47F1C1E64E100DE5119 /* AFHTTPSessionManager.m in Sources */,
+				CDF8A4681C1E634900DE5119 /* MBProgressHUD.m in Sources */,
+				CDF8A4801C1E64E100DE5119 /* AFNetworkReachabilityManager.m in Sources */,
+				CDF8A47E1C1E64E100DE5119 /* AFHTTPRequestOperationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +509,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Zheng (BUJ9KLC86A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DrawFormula",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DrawFormula/DrawFormula-Prefix.pch";
 				INFOPLIST_FILE = DrawFormula/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.DrawFormula;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Uda100.youDa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -404,10 +532,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Zheng (BUJ9KLC86A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DrawFormula",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DrawFormula/DrawFormula-Prefix.pch";
 				INFOPLIST_FILE = DrawFormula/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.DrawFormula;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Uda100.youDa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -478,6 +618,7 @@
 				CD72C2671C1B104300290323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD72C2681C1B104300290323 /* Build configuration list for PBXNativeTarget "DrawFormulaTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +627,7 @@
 				CD72C26A1C1B104300290323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD72C26B1C1B104300290323 /* Build configuration list for PBXNativeTarget "DrawFormulaUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +636,7 @@
 				CD72C26D1C1B104300290323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

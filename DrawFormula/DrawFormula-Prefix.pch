@@ -1,0 +1,28 @@
+//
+//  DrawFormula-Prefix.pch
+//  DrawFormula
+//
+//  Created by hanlong on 15/12/12.
+//  Copyright © 2015年 hanlong. All rights reserved.
+//
+
+#ifndef DrawFormula_Prefix_pch
+#define DrawFormula_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AFNetworking.h"
+#import "MBProgressHUD+WJ.h"
+#endif
+
+#define YDColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif /* DrawFormula_Prefix_pch */
